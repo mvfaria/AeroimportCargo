@@ -1,0 +1,373 @@
+/*-----------------------------------------------------------------------------
+autor: Luan Garcia
+-----------------------------------------------------------------------------*/
+/* =Reset
+-----------------------------------------------------------------------------*/
+* {margin: 0px;padding: 0px; outline: none;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+fieldset {display:block;}
+address,caption,cite,code,dfn,em,th,var {	font-style:normal;font-weight:normal;}
+ol,ul, li {list-style: none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;line-height: normal;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;}
+legend {	display: none;}
+a {text-decoration: none;}
+
+/* INICIO CSS PADRÃO
+-----------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+.clearfix:after {content: "."; display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {height:1%;}
+.clear {clear: both;height: 1px;margin: 0px;padding: 0px;line-height: 0px;}
+.rpl {overflow: hidden;}
+.rpl a {display:block;width: 100%;height: 100%;position: relative;overflow: hidden;}
+.rpl span, .rpl strong {position: absolute;top: -9999px;}
+.fix {overflow: hidden;zoom: 1;}
+.fl {display: inline;float: left;}
+.fr {display: inline;float: right;}
+.crop * {float: left;}
+.crop a {overflow: hidden;}  
+.crop a:hover {border: 4px solid blue;}
+.crop a:hover img {margin: -4px;}
+input[type='radio'], input[type='checkbox'] {border: none;padding: 0px;.margin: -4px;}
+input[type='text'], textarea {
+	background-color: #b0b0b5;
+	border: 1px solid #71727a;
+	color:#454545;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	width: 272px;
+	padding: 3px 2px 3px;
+}
+textarea {overflow-y: auto;}
+.grid_978 {width:978px; margin: 0 auto; overflow: hidden; zoom: 1;}
+.banner-bt-saibamais {
+	background: url(../img/bt-destaque-saibamais-bg.png) no-repeat 0 0;
+	height: 34px;
+	width: 107px;
+	overflow: hidden;
+}
+	.banner-bt-saibamais a {
+		font-family: "Rockwell";
+		color:#272833 !important;
+		display: block;
+		font-size: 14px;
+		padding: 4px 0 5px 17px;
+	}
+.bt-saibamais {
+	background: url(../img/bt-saibamais-bg.png) no-repeat 0 0;
+	font-family: "Rockwell";
+	font-size: 13px;
+	height: 23px;
+	width: 101px;
+}
+	.bt-saibamais a{
+		color:#272833;
+		display: block;
+		padding: 2px 0 3px;
+		text-align: center;
+	}
+/*-----------------------------------------------*/
+@font-face {
+    font-family: 'Rockwell';
+    src: url('rockwell-webfont.eot');
+    src: url('rockwell-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rockwell-webfont.woff') format('woff'),
+         url('rockwell-webfont.ttf') format('truetype'),
+         url('rockwell-webfont.svg#RockwellRegular') format('svg');
+}
+h2, h3, h4, h5, h6, .rock {
+	font-family: "Rockwell";
+}
+body {
+	background-color:#2d2f39;
+	color: #454545;
+	font-family: arial, tahoma;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+#Header {
+	background-color: #2d2f39;
+	height: 123px;
+	position: relative;
+}
+	#Header .header-logo {
+		background: url(../img/header-logo.png) no-repeat 0 0;
+		width: 260px;
+		height: 130px;
+	}	
+	#Header .box {
+		padding-top: 7px;
+	}
+		#Header .linguas {
+			margin-bottom: 26px;
+		}
+			#Header .linguas li {
+				width: 31px;
+				height: 14px;
+				margin-left: 7px;
+			}
+				#Header .linguas li  a {
+					background: url(../img/bandeiras.png) no-repeat 0 0;
+				}
+				#Header .linguas li.pt  a {
+					background-position: 0 0;
+				}
+					#Header .linguas li.pt  a:hover {
+						background-position: 0 -14px;
+					}
+				#Header .linguas li.en  a {
+					background-position: -31px 0;
+				}
+					#Header .linguas li.en  a:hover {
+						background-position: -31px -14px;
+					}
+				#Header .linguas li.esp  a {
+					background-position: -62px 0;
+				}
+					#Header .linguas li.esp  a:hover {
+						background-position: -62px -14px;
+					}
+			#Header .redes-sociais li {
+				margin-left: 6px;
+				width: 32px;
+				height: 31px;
+			}
+				#Header .redes-sociais li a {
+					background-image: url(../img/header-redes-sociais.png);
+					background-repeat: no-repeat;
+				}
+					#Header .redes-sociais li.twitter a  {
+						background-position: 0 0;
+					}
+						#Header .redes-sociais li.twitter a:hover  {
+							background-position: 0 -31px;
+						}
+					#Header .redes-sociais li.facebook a  {
+						background-position: -38px 0;
+					}
+						#Header .redes-sociais li.facebook a:hover  {
+							background-position: -38px -31px;
+						}
+					#Header .redes-sociais li.feed a  {
+						background-position: -75px 0;
+					}
+						#Header .redes-sociais li.feed a:hover  {
+							background-position: -75px -31px;
+						}
+/* FIM HEADER */
+/* INICIO MENU */
+
+#Menu {
+	background: url(../img/menu-bg.gif) repeat-x 0 0;
+	color: #fff;
+	height: 45px;
+	font-family: "Rockwell";
+	font-size: 16px;
+}
+	#Menu ul {
+		display: block;
+		width: 980px;
+	}
+	#Menu  a {
+		background: url(../img/menu-bg-hover.gif) repeat-x 0 100px;
+		color:#fff;
+		display: block;
+		padding: 14px 32px 14px;
+		
+
+	}
+		#Menu  a:hover, #Menu  a.ativo {
+			color:#272833;
+			background-position: 0 0;
+		}
+/* FIM MENU */
+/* INICIO FOOTER */
+#Footer{
+	background: url(../img/footer-bg.gif) repeat-x 0 0;
+	height: 335px;
+}
+	#Footer .grid_978 {
+		background: url(../img/footer-bg-caixas.png) no-repeat bottom right;
+		height: 335px;
+	}
+		#Footer h6 {
+			color: #fff;
+			padding-top: 23px;
+		}
+		#Footer  h5 {
+			color: #fff;
+			font-size: 18px;
+			margin-bottom: 10px;
+		}		
+			
+		#Footer .content {
+			color:#9c9da2;
+			padding: 18px 0 0 0;
+			height: 259px;
+		}
+			#Footer h5.rpl {
+				background: url(../img/footer-webtrack-logo.png) no-repeat 0 0;
+				width: 150px;
+				height: 61px;
+				margin: 36px 29px 0 0;
+			}
+			.BoxLocalizacao {
+				width: 355px;
+			}
+				
+				.BoxLocalizacao p {
+					line-height: 20px;
+					margin-bottom: 13px;
+				}
+					.BoxLocalizacao p a {
+						color:#9c9da2;
+					}
+						.BoxLocalizacao p a:hover {
+							text-decoration: underline;
+						}
+				
+			.FaleConosco {
+				margin-left: 15px;
+				width: 354px;		
+			}
+				.FaleConosco .cp {
+					position: relative;
+					padding-bottom: 15px;
+				}				
+					.FaleConosco label {
+						padding-top: 3px;
+						width: 72px;
+					}
+						.FaleConosco label.error {
+							color: #b6cd2d;
+							position: absolute;
+							font-size: 11px;
+							bottom: 0px;
+							left: 73px;
+							white-space: nowrap;
+							width: auto;
+						}
+					.FaleConosco textarea {
+						height: 60px;
+					}
+/* FIM Footer */
+/* INICIO CONTEUDO */
+
+#Conteudo {
+	background: #4e596a url(../img/conteudo-bg.jpg) no-repeat center top;
+	padding: 31px 0 36px 0;
+}
+	
+/* FIM CONTEUDO */
+
+/* INICIO ELEMENTOS PADRÕES */
+
+.destaque_354 {
+	background: url(../img/destaque_354.png) no-repeat 0 0;
+	height: 262px;
+	padding: 24px 0 0 15px;
+	width: 339px;
+}
+.destaque_238 {
+	background: url(../img/destaque_238.png) no-repeat 0 0;
+	height: 262px;
+	padding: 24px 0 0 15px;
+	width: 223px;
+}
+	.destaque h3 {
+		color: #fff;
+		font-size: 15px;
+		margin-bottom: 25px;
+		padding-bottom: 5px;	
+	}
+		.destaque h3 a {
+			color: #fff;
+			padding-left: 31px;
+		}
+		.destaque h3.ico-setas {
+			background: url(../img/destaque-titulo-icone-setas.png) no-repeat 0 0;
+		}
+		.destaque h3.ico-data {
+			background: url(../img/destaque-titulo-icone-data.png) no-repeat 0 0;
+			position: relative;
+		}
+		.destaque h3.ico-clientes {
+			background: url(../img/destaque-titulo-icone-clientes.png) no-repeat 3px 1px;			
+		}
+			.destaque h3.ico-data span {
+				display: block;
+				font-family: Georgia;
+				font-size: 10px;
+				position: absolute;
+				top: 4px;
+				left: 0px;
+				text-align: center;
+				width: 18px;
+			}
+	.destaque .txt {
+		color:#454545;
+		height: 180px;	
+		line-height: 20px;
+		padding: 0 25px 0 7px;
+	}
+		.destaque .txt a {
+			color:#454545;
+		}
+			.destaque .txt a:hover {
+				text-decoration: underline;
+			}
+				
+	.destaque .bt-saibamais {
+		margin-left: 6px;
+	}
+.lista-bullet-verde li{
+	background: url(../img/bullet-verde.png) no-repeat 0 8px;
+	margin-bottom: 3px;
+	padding-left: 20px;
+}
+/* FIM ELEMENTOS PADRÕES */
+
+.box_msg {
+	background: url(../img/infos/box_306_bg.png) repeat;
+	width: 530px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 auto 20px;  
+	position: relative;
+}
+.box_msg .titulo {
+    font-family: "Rockwell";
+    background-color: #2D2F39;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-top-right-radius: 5px;
+	-moz-border-top-left-radius: 5px;    
+	-moz-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.box_msg .msg {padding: 0 0 20px 30px;}
+.box_msg .msg p {padding-left: 25px;color:#fff;font-size: 16px;}
+.box_msg .msg.sucesso {padding-top: 25px;}
+    .box_msg .msg.sucesso p {line-height: 56px;}
+.box_msg .msg.erro {padding-top: 17px;}
+    .box_msg .msg.erro p {line-height: 63px;}
+.box_msg .msg.falha {padding-top: 20px;}
+    .box_msg .msg.falha p {line-height: 62px;}
+
+
+#construcao #Conteudo {padding: 0px;}
+#construcao #Conteudo .grid_978{height:  630px;overflow: visible; position: relative;}
+#construcao #Conteudo .grid_978 img  {position: absolute; left: 50%; bottom: -50px; margin-left: -305px;}

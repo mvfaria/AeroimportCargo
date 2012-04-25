@@ -1,0 +1,59 @@
+.BoxSolucoes {
+	width: 350px;
+	padding: 0 3px 0 2px;
+}
+	.BoxSolucoes li {
+		background: url(../img/solucoes/seta.png) no-repeat 0 -9999em;
+		height: 73px;
+		margin-bottom: 14px;
+	}
+		.BoxSolucoes li.ativo {
+			background-position: top right;
+		}
+		.BoxSolucoes li a {
+			background-color: #b6cd2d;
+			color:#2d2f39;
+			font-size: 18px;			
+			display: block;
+			width: 328px;
+			height: 73px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+			.BoxSolucoes li a span {
+				display: block;
+				padding: 8px 12px 0;
+			}
+.BoxTxt {
+	color:#fff;
+	font-size: 14px;
+	width: 610px;
+}
+	.BoxTxt  p, .BoxTxt li {
+		margin-bottom: 22px;
+		line-height: 20px;
+	}
+		.BoxTxt  p.rock {
+			color:#b6cd2d;
+			font-size: 17px;
+		}
+.place-holder{ margin-bottom: 18px; } 
+.holding-form{ float: right; width: 576px; padding: 16px; height: auto; background: url("../img/infos/box_306_bg.png") repeat scroll 0 0 transparent; }
+.holding-form .campo.medidas{ clear: both; }
+.holding-form .campo { margin-bottom: 17px; height: 32px; overflow: hidden;  }
+   .holding-form .campo label{  width: 120px; height: 27px; line-height: 27px; display: block; float: left; font-size: 13px; font-family: Arial; color:#fff; }
+   .holding-form .campo input[type="text"]{ background: #fff; height: 24px; width: 450px; }
+   .holding-form .campo textarea{ width: 450px; height: 73px; background: #fff; }
+   
+.holding-form .campo.telefone input[type="text"]{ width: 239px; margin-right: 12px; }
+.holding-form .campo.peso-bruto input[type="text"]{ width: 131px; margin-right: 250px; }
+.holding-form .campo.ramal input[type="text"]{ width: 140px; }
+.holding-form .campo.ramal label{ width: 53px; }
+.holding-form .campo input[type="text"].medida{ width: 70px;}
+.holding-form .campo span{ font-size: 13px; font-family: Arial; height: 27px; line-height: 27px; color: #fff; display: block; margin-left:8px; margin-right: 8px; }
+.holding-form .campo.cliente-novo span{ line-height: 15px !important; height: auto; font-size: 13px; float: left; width: 40px; font-family: Arial; color: #fff; display: block; margin-left:8px; margin-right: 8px; }
+.holding-form .campo.como-chegou label{ width: 153px; }
+.holding-form .campo.como-chegou input{ width: 417px; }
+.BoxSolucoes li a{ line-height: 55px; } 
+.BoxSolucoes li a img{ margin-left: 20px; margin-right: 20px; margin-top: 13px; }

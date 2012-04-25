@@ -1,0 +1,40 @@
+.BoxSolucoes {
+	width: 350px;
+	padding: 0 3px 0 2px;
+}
+	.BoxSolucoes li {
+		background: url(../img/solucoes/seta.png) no-repeat 0 -9999em;
+		height: 73px;
+		margin-bottom: 14px;
+	}
+		.BoxSolucoes li.ativo {
+			background-position: top right;
+		}
+		.BoxSolucoes li a {
+			background-color: #b6cd2d;
+			color:#2d2f39;
+			font-size: 18px;			
+			display: block;
+			width: 328px;
+			height: 73px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+			.BoxSolucoes li a span {
+				display: block;
+				padding: 8px 12px 0;
+			}
+.BoxTxt {
+	color:#fff;
+	font-size: 14px;
+	width: 610px;
+}
+	.BoxTxt  p, .BoxTxt li {
+		margin-bottom: 22px;
+		line-height: 20px;
+	}
+		.BoxTxt  p.rock {
+			color:#b6cd2d;
+			font-size: 17px;
+		}

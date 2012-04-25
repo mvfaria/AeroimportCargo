@@ -1,0 +1,23 @@
+#Conteudo .desc {
+	color:#fff;
+	font-size: 14px;
+	line-height: 20px;
+}
+	#Conteudo p.desc {
+		margin-bottom: 30px;
+	}
+	.port  {
+		background: url(../img/portifolio/port-bg.png) repeat;
+		margin-bottom: 23px;
+		padding: 20px 0;
+	}
+		.port .img{
+			padding: 20px 0;
+			vertical-align: middel;
+			text-align: center;
+			width: 358px;
+		}
+		.port .desc {
+			width: 590px;
+			padding-right: 20px;
+		}

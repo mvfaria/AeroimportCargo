@@ -1,0 +1,67 @@
+.BoxSolucoes {
+	width: 168px;
+	padding: 0 3px 0 2px;
+}
+	.BoxSolucoes li {
+		background: url(../img/solucoes/seta.png) no-repeat 0 -9999em;
+		height: 53px;
+		margin-bottom: 14px;
+	}
+		.BoxSolucoes li.ativo {
+			background-position: center right;
+		}
+		.BoxSolucoes li a {
+			background-color: #b6cd2d;
+			color:#2d2f39;
+			font-size: 18px;			
+			display: block;
+			width: 153px;
+			height: 53px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+			.BoxSolucoes li a span {
+				display: block;
+				padding: 8px 12px 0;
+			}
+#Conteudo .grid_800 {
+    background: url("../img/infos/box_306_bg.png") repeat scroll 0 0 transparent;
+    border-radius: 5px 5px 5px 5px;
+    height: 105px;
+    margin-left: 5px;
+    position: relative;
+    width: 760px;
+    padding: 20px;
+    margin-bottom: 21px;
+}
+#Conteudo .grid_980 {
+    background: url("../img/infos/box_306_bg.png") repeat scroll 0 0 transparent;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    position: relative;
+    width: 980px;
+    padding: 0px 0px 50px;
+    margin:0 auto 21px;
+}
+#Conteudo .grid_800 form label{ font-size: 13px; color:#fff; display: block;}
+#Conteudo .grid_800 form input{ background-color: #fff; }
+#Conteudo .grid_800 form div { margin-right: 14px; }
+#Conteudo .grid_800 form div.campo-texto input { width: 210px; }
+#Conteudo .grid_800 form div.campo-email{ margin-right:0px; }
+#Conteudo .grid_800 form div.campo-email input{ width: 280px; }
+#Conteudo .grid_800 form div.campo-data{ position: relative; top: 15px;}
+#Conteudo .grid_800 form div.campo-data label{ position: relative; top: 3px; }
+#Conteudo .grid_800 form div.campo-data img{ position: relative; top: 7px;}
+#Conteudo .grid_800 form div.campo-data input{ width: 130px; }
+#Conteudo ul.submit-form{ margin-bottom: 20px;}
+#Conteudo ul.submit-form li a{ display: block; height: 29px; }
+    #Conteudo ul.submit-form li.limpar a{ width: 101px; background: url('../img/bg-limpar.png') no-repeat 0 0; margin-right: 18px; }
+    #Conteudo ul.submit-form li.pesquisar a{ width: 121px; background: url('../img/bt-pesquisar.png') no-repeat 0 0; }
+
+#Conteudo .grid_980 #resultado-pesquisa{ width: 100%; }
+#Conteudo .grid_980 #resultado-pesquisa tr.header{ background-color:#2D2F39;}
+#Conteudo .grid_980 #resultado-pesquisa tr.par{ background-color:#353945;}
+#Conteudo .grid_980 #resultado-pesquisa tr td, #Conteudo .grid_980 #resultado-pesquisa tr th{ padding: 10px 12px 10px; color:#fff; font-size: 13px; }
+#Conteudo .grid_980 #resultado-pesquisa tr td a.alterar{ width: 19px; height: 19px; display: block; background-image: url('../img/alterar-cancelar-ico.png'); background-position: 0 0; background-repeat: no-repeat; }
+#Conteudo .grid_980 #resultado-pesquisa tr td a.excluir{width: 19px; height: 19px; display: block; background-image: url('../img/alterar-cancelar-ico.png'); background-position: -20px 0; background-repeat: no-repeat;}

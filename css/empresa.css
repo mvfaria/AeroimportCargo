@@ -1,0 +1,21 @@
+.BoxImg {
+	width: 350px;
+	padding: 0 3px 0 2px;
+}
+	.BoxImg img {
+		display: block;
+		margin-bottom: 14px;
+	}
+.BoxTxt {
+	color:#fff;
+	font-size: 14px;
+	width: 610px;
+}
+	.BoxTxt  p {
+		margin-bottom: 22px;
+		line-height: 20px;
+	}
+		.BoxTxt  p.rock {
+			color:#b6cd2d;
+			font-size: 17px;
+		}

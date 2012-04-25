@@ -1,0 +1,111 @@
+#Conteudo .grid_440{
+	background: url(../img/infos/box_306_bg.png) repeat;
+	height: 200px;
+	width: 440px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 auto;  
+	position: relative;
+}
+	#Conteudo .grid_440 .bts {
+		width: 210px;
+		position: absolute;
+		bottom: 15px;
+		right: 20px;
+	}
+	#Conteudo .grid_440 .titulo {
+		background-color: #2d2f39;
+		color:#fff;
+		height: 40px;
+		font-size: 16px;
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+		.grid_440 .titulo h3 {
+			padding: 9px 0 0 16px;
+                        font-size: 18px;
+                        text-align: center;
+		}
+			
+		.grid_440 .content {
+			padding: 25px 0 0 15px;
+			width: 400px;
+		}
+			.grid_440 .content li {
+				margin-bottom: 14px;
+				width: 100%;
+			}
+				.grid_440 .content label {
+					color:#fff;
+					font-size: 14px;
+					padding: 2px 0 0 0;
+					width: 100px;
+				}
+					.grid_440 .content label  em{
+						font-style: italic;
+					}
+				.grid_440 .content input {
+					background-color:#fff;
+					border-color:#000;
+					padding: 2px;
+					width: 294px;
+				}
+					.grid_440 .content input.mn {
+						width: 84px;
+					}
+					.grid_440 .content select{
+						width: 60px;
+					}
+	.grid  {.padding: 20px 0 0 20px; margin-bottom: 20px;.margin-top: -20px;}
+	.grid table {
+		width: 958px;
+		margin: 0 0 0 20px;
+	}
+		.grid table th 	{
+			background-color: #2d2f39;
+			color:#fff;
+			font-size: 16px;
+			height: 50px;
+			padding-left: 20px;
+			width: 320px;
+		}
+		.grid table th.first {
+			-webkit-border-top-left-radius: 5px;
+			-moz-border-radius-topleft: 5px;
+			border-top-left-radius: 5px;
+		}
+		.grid table th.last {
+			-webkit-border-top-right-radius: 5px;
+			-moz-border-radius-topright: 5px;
+			border-top-right-radius: 5px;
+		}
+		.grid table td {
+			background: url(../img/infos/box_306_bg.png) repeat;
+			color:#fff;
+			padding: 15px 20px;
+			font-size: 14px;
+		}
+			.grid table td.first{
+				-webkit-border-bottom-left-radius: 5px;
+				-moz-border-radius-bottomleft: 5px;
+				border-bottom-left-radius: 5px;
+			}
+			.grid table td.last{
+				-webkit-border-bottom-right-radius: 5px;
+				-moz-border-radius-bottomright: 5px;
+				border-bottom-right-radius: 5px;
+			}
+			.grid table td li {
+				margin-bottom: 3px
+			}
+			.grid table td a  {
+				color:#fff;
+			}
+				.grid table td a:hover {
+					color:#b6cd2d;
+				}

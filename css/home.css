@@ -1,0 +1,71 @@
+/* INICIO BANNER */
+#Banner {
+	width: 978px;
+	height: 325px;
+	position: relative;
+	margin-bottom: 19px;
+}
+	#Banner li{
+		color:#fff;
+		width: 978px;
+		height: 325px;
+		position: relative;		
+	}
+		#Banner li .img {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			z-index:1;
+		}
+		#Banner .txt {
+			font-family: "Rockwell";
+			width: 298px;
+			padding-left: 10px;
+			font-size: 18px;
+			line-height: 23px;
+			padding-top: 65px;
+			position: absolute;
+			z-index: 10;
+		}
+			#Banner .txt p {
+				margin-bottom: 20px;
+			}
+				#Banner .txt a  {
+					color:#fff;
+				}
+					#Banner .txt a span {
+						font-size: 25px;
+					}
+	#Banner .carousel-control {
+		display: none;
+	}
+	#Banner  .center-wrap {
+		position: absolute;
+		bottom: 0px;
+		right: 18px;
+		z-index: 10;
+	}
+		#Banner  .center-wrap p {
+			overflow: hidden;
+			zoom: 1;
+		}
+		#Banner  .center-wrap p a {
+			background: url(../img/banner-paginacao.png) no-repeat 0 0;
+			display: inline;
+			float: left;				
+			margin-left: 6px;
+			overflow: hidden;
+			height: 20px;				
+			text-indent : -999em; 
+			width: 19px;
+		}
+			#Banner  .center-wrap p a.active {
+				background-position: 0 -20px;
+			}
+/* FIM BANNER */
+
+/* INICIO DESTAQUES HOME */
+#DestaquesHome .destaque.fl{
+	margin-right: 15px;
+}
+/* FIM DESTAQUES HOME */
